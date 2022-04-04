@@ -1,0 +1,1 @@
+SELECT name, email, id, cohort_id FROM student WHERE email NOT LIKE '%@gmail.com' AND phone IS NULL;

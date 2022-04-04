@@ -1,0 +1,1 @@
+SELECT name, id, cohort_id FROM student WHERE phone IS NULL OR email IS NULL;
